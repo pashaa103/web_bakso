@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BAKSO SERDANG | Rasa Kaldu DAN BAKSO BERDAGING</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Loading -->
+    <div class="loader">
+        <div class="loader-logo">BS</div>
+        <p>BAKSO SERDANG</p>
+    </div>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">
+            <div class="logo-icon">BS</div>
+            <div>
+                <h2>BAKSO SERDANG</h2>
+                <span>EST. 2026</span>
+            </div>
+        </div>
+
+        <nav id="navMenu">
+            <a href="#home" class="active">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">Tentang</a>
+            <a href="#promo">Promo</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+
+        <a href="#menu" class="nav-button">Pesan Sekarang</a>
+
+        <button class="menu-toggle" id="menuToggle">
+            ☰
+        </button>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <span class="small-title">PREMIUM INDONESIAN MEATBALL</span>
+
+            <h1>
+                RASA YANG<br>
+                <span>TAK TERLUPAKAN.</span>
+            </h1>
+
+            <p>
+                Nikmati kelezatan bakso premium dengan kuah kaldu
+                yang kaya rasa dan racikan khas BAKSO SERDANG.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#menu" class="btn-primary">
+                    Lihat Menu
+                    <span>→</span>
+                </a>
+
+                <a href="#about" class="btn-secondary">
+                    Tentang Kami
+                </a>
+            </div>
+
+            <div class="hero-info">
+                <div>
+                    <strong>100%</strong>
+                    <span>Daging Pilihan</span>
+                </div>
+
+                <div>
+                    <strong>25+</strong>
+                    <span>Tahun Pengalaman</span>
+                </div>
+
+                <div>
+                    <strong>4.9★</strong>
+                    <span>Rating Pelanggan</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-down">
+            <span>SCROLL DOWN</span>
+            <div></div>
+        </div>
+
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee">
+        <div class="marquee-content">
+            <span>BAKSO SERDANG</span>
+            <i>✦</i>
+            <span>PREMIUM TASTE</span>
+            <i>✦</i>
+            <span>AUTHENTIC INDONESIAN FLAVOR</span>
+            <i>✦</i>
+            <span>BAKSO SERDANG</span>
+            <i>✦</i>
+            <span>PREMIUM TASTE</span>
+            <i>✦</i>
+        </div>
+    </div>
+
+    <!-- Menu -->
+    <section class="menu-section" id="menu">
+
+        <div class="section-heading reveal">
+            <span>OUR SPECIAL MENU</span>
+            <h2>Menu <em>Favorit</em></h2>
+            <p>
+                Dibuat dari bahan pilihan dan resep rahasia
+                untuk menghasilkan rasa yang istimewa.
+            </p>
+        </div>
+
+        <div class="menu-grid">
+
+            <article class="menu-card reveal">
+                <div class="menu-image bakso-1">
+                    <div class="popular">BEST SELLER</div>
+                </div>
+
+                <div class="menu-info">
+                    <div>
+                        <h3>Bakso Urat Kribo</h3>
+                        <p>Bakso jumbo, bakso kecil, tahu, mie & sayuran.</p>
+                    </div>
+
+                    <div class="price">
+                        Rp18K
+                    </div>
+
+                    <button class="order-btn" onclick="orderMenu('Bakso Serdang Special')">
+                        Pesan
+                    </button>
+                </div>
+            </article>
+
+            <article class="menu-card reveal">
+                <div class="menu-image bakso-2">
+                    <div class="popular">SIGNATURE</div>
+                </div>
+
+                <div class="menu-info">
+                    <div>
+                        <h3>Bakso Keju Premium</h3>
+                        <p>Bakso keju dengan tekstur keju yang melimpah dan kuah kaldu spesial.</p>
+                    </div>
+
+                    <div class="price">
+                        Rp18K
+                    </div>
+
+                    <button class="order-btn" onclick="orderMenu('Bakso Keju Premium')">
+                        Pesan
+                    </button>
+                </div>
+            </article>
+
+            <article class="menu-card reveal">
+                <div class="menu-image bakso-3"></div>
+
+                <div class="menu-info">
+                    <div>
+                        <h3>Bakso Mercon</h3>
+                        <p>Bakso dengan isian sambal pedas yang menggugah selera.</p>
+                    </div>
+
+                    <div class="price">
+                        Rp18K
+                    </div>
+
+                    <button class="order-btn" onclick="orderMenu('Bakso Mercon')">
+                        Pesan
+                    </button>
+                </div>
+            </article>
+
+            <article class="menu-card reveal">
+                <div class="menu-image bakso-4"></div>
+
+                <div class="menu-info">
+                    <div>
+                        <h3>Bakso Beranak</h3>
+                        <p>Bakso dengan isian bakso kecil dengan tetelan.</p>
+                    </div>
+
+                    <div class="price">
+                        Rp18K
+                    </div>
+
+                    <button class="order-btn" onclick="orderMenu('Bakso Beranak')">
+                        Pesan
+                    </button>
+                </div>
+            </article>
+
+            <article class="menu-card reveal">
+                <div class="menu-image bakso-5"></div>
+            </article>
+
+            <article class="menu-card reveal">
+                <div class="menu-image bakso-6"></div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+
+        <div class="about-image reveal">
+            <div class="experience-box">
+                <strong>25+</strong>
+                <span>YEARS OF<br>EXPERIENCE</span>
+            </div>
+        </div>
+
+        <div class="about-content reveal">
+
+            <span class="small-title">THE STORY</span>
+
+            <h2>
+                Lebih dari sekadar<br>
+                <em>semangkuk bakso.</em>
+            </h2>
+
+            <p>
+                BAKSO SERDANG hadir dengan satu tujuan sederhana:
+                memberikan pengalaman menikmati bakso yang berbeda.
+            </p>
+
+            <p>
+                Kami menggunakan daging pilihan, rempah berkualitas,
+                serta proses pembuatan yang mengutamakan rasa dan
+                konsistensi di setiap mangkuk.
+            </p>
+
+            <div class="about-features">
+
+                <div>
+                    <div class="feature-icon">✦</div>
+                    <h4>Bahan Premium</h4>
+                    <p>Dipilih dengan standar kualitas tinggi.</p>
+                </div>
+
+                <div>
+                    <div class="feature-icon">♨</div>
+                    <h4>Fresh Every Day</h4>
+                    <p>Selalu dibuat fresh setiap hari.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Promo -->
+    <section class="promo" id="promo">
+
+        <div class="promo-content reveal">
+
+            <span>LIMITED OFFER</span>
+
+            <h2>
+                BAKSO ENAK,<br>
+                <em>HARGA BERSAHABAT.</em>
+            </h2>
+
+            <p>
+                Nikmati promo spesial untuk pelanggan BAKSO SERDANG.
+            </p>
+
+            <div class="promo-code">
+                <div>
+                    <small>USE CODE</small>
+                    <strong>SERDANG3102</strong>
+                </div>
+
+                <div class="discount">
+                    25%
+                </div>
+            </div>
+
+            <button onclick="copyPromo()" class="promo-button">
+                Salin Kode Promo
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+
+        <div class="section-heading reveal">
+            <span>WHAT THEY SAY</span>
+            <h2>Kata <em>Mereka</em></h2>
+        </div>
+
+        <div class="testimonial-grid">
+
+            <div class="testimonial reveal">
+                <div class="stars">★★★★★</div>
+
+                <p>
+                    "Kuahnya benar-benar gurih dan baksonya terasa
+                    banget dagingnya. Bakal balik lagi!"
+                </p>
+
+                <h4>— Andi Pratama</h4>
+            </div>
+
+            <div class="testimonial reveal">
+                <div class="stars">★★★★★</div>
+
+                <p>
+                    "Bakso merconnya juara. Pedasnya dapet,
+                    tapi rasanya tetap enak."
+                </p>
+
+                <h4>— Raka Wijaya</h4>
+            </div>
+
+            <div class="testimonial reveal">
+                <div class="stars">★★★★★</div>
+
+                <p>
+                    "Tempatnya nyaman, tampilannya premium,
+                    dan makanannya mantap."
+                </p>
+
+                <h4>— Dinda Amelia</h4>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+
+        <div class="contact-content reveal">
+
+            <span class="small-title">VISIT US</span>
+
+            <h2>
+                Mari makan<br>
+                <em>bersama.</em>
+            </h2>
+
+            <p>
+                Datang dan rasakan sendiri kenapa BAKSO SERDANG
+                menjadi favorit banyak orang.
+            </p>
+
+            <div class="contact-details">
+
+                <div>
+                    <span>LOCATION</span>
+                    <p>Jl.eka v rt009 rw003 No 30<br>Jakarta, Indonesia</p>
+                </div>
+
+                <div>
+                    <span>OPENING HOURS</span>
+                    <p>Senin - Minggu<br>09:00 - 17:00 WIB</p>
+                </div>
+
+                <div>
+                    <span>CONTACT</span>
+                    <p>+62 856 9476 2022<br>@baksoserdang</p>
+                </div>
+
+            </div>
+
+            <a href="https://wa.me/6285694762022" target="_blank" class="whatsapp-btn">
+                <span>WhatsApp</span>
+                <b>→</b>
+            </a>
+
+        </div>
+
+        <div class="contact-map reveal">
+            <div class="map-card">
+                <div class="map-pin">●</div>
+                <h3>BAKSO SERDANG</h3>
+                <p>Jakarta, Indonesia</p>
+                <a href="https://maps.google.com" target="_blank">
+                    Buka Google Maps →
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-main">
+
+            <div class="footer-brand">
+                <div class="logo">
+                    <div class="logo-icon">BS</div>
+                    <div>
+                        <h2>BAKSO SERDANG</h2>
+                        <span>EST. 2026</span>
+                    </div>
+                </div>
+
+                <p>
+                    Authentic Indonesian taste,<br>
+                    crafted with passion.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h4>NAVIGATION</h4>
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">Tentang</a>
+                <a href="#promo">Promo</a>
+                <a href="#contact">Kontak</a>
+            </div>
+
+            <div class="footer-links">
+                <h4>SOCIAL</h4>
+                <a href="#">Instagram</a>
+                <a href="#">TikTok</a>
+                <a href="#">Facebook</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <span>© 2026 BAKSO SERDANG. All Rights Reserved.</span>
+            <span>Made with in Indonesia</span>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
